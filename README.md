@@ -14,6 +14,20 @@ A Python-based automation tool that recursively scans a directory, detects dupli
 - ⚠️ Handles file and permission-related errors
 - 💻 Command-line interface with help and usage options
 
+## Screenshots
+
+### Terminal Execution
+
+![Terminal Execution](screenshots/Terminal%20execution.png)
+
+### Email Report
+
+![Email Report](screenshots/Email.png)
+
+### Log File
+
+![Log File](screenshots/Log%20File.png)
+
 ## How It Works
 
 1. The user provides a directory path, email address, and execution interval.
