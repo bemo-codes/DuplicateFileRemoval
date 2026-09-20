@@ -354,6 +354,7 @@ def main():
             print('''
     Usage: \n
     python duplicate_file_remover.py <DirectoryPath> <IntervalInMinutes> <RecieverEmail> ''')
+            return
 
     if len(sys.argv) != 4:
         print("Invalid number of arguments.")
