@@ -353,7 +353,7 @@ def main():
         elif sys.argv[1] == "--usage" or sys.argv[1] == "-u":
             print('''
     Usage: \n
-    python Assignment33.py <DirectoryPath> <IntervalInMinutes> <RecieverEmail> ''')
+    python duplicate_file_remover.py <DirectoryPath> <IntervalInMinutes> <RecieverEmail> ''')
 
     if len(sys.argv) != 4:
         print("Invalid number of arguments.")
