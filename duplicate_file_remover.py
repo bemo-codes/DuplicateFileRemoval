@@ -318,7 +318,7 @@ This script:
 
 Usage:
 
-python Assignment33.py <DirectoryPath> <IntervalInMinutes> <ReceiverEmail>
+python duplicate_file_remover.py <DirectoryPath> <IntervalInMinutes> <ReceiverEmail>
 Enter <DirectoryPath> as a string i.e. in double/single quotes.
 
 Options:
