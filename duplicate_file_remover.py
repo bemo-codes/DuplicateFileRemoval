@@ -167,8 +167,8 @@ def ValidateEmail(ReceiverEmail):
 def SendEmail(ReceiverEmail, timestamp, timestamp1, DirectoryName,
               TotalFiles, duplicate, TotalDeleted, LogfileName):
 
-    SenderEmail = "shivamxapp@gmail.com"
-    SenderPassword = "lchr wnaf qpze wmta"
+    SenderEmail = os.environ.get("GMAIL_USER")
+    SenderPassword = os.environ.get("GMAIL_APP_PASSWORD")
 
     if not ValidateEmail(ReceiverEmail):
         return
