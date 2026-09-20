@@ -4,6 +4,12 @@
 ![Automation](https://img.shields.io/badge/Automation-File%20Management-green)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
+## Project Status
+
+**Completed** ✅
+
+The current version supports duplicate-file detection, automatic removal, logging, scheduled execution, and email reporting.
+
 A Python-based automation tool that recursively scans a directory, detects duplicate files using MD5 checksums, removes duplicate copies, generates execution logs, and sends an email report.
 
 ## Features
