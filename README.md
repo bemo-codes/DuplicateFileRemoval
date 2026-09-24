@@ -536,7 +536,7 @@ See the [LICENSE](LICENSE) file for details.
 
 # Author
 
-**bemo-codes**
+**Shivam Ramesh Kurlekar**
 
 GitHub:
 
